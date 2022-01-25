@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+
+body {
+    font-family: 'Architects Daughter', cursive;
+    background-color: #f0f0f5;
+}
+
+#title {
+    font-size: 50px;
+    color: rgba(26, 17, 82, 0.842);
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+button {
+    background-color: #0c80f3;
+    border: 6px solid #97c4ba;
+    border-radius: 10px;
+  }
+  
+  .game-board {
+    width: 600px;
+    height: 600px;
+    margin: 0 auto;
+    background-color: #34495e;
+    color: rgba(88, 172, 197, 0.747);
+    border: 6px solid #0b0d0f;
+    border-radius: 10px;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
+  }
+  
+  .grid-row {
+    border: 6px solid hsl(210, 43%, 62%);
+    border-radius: 6px;
+    font-family: 'Architects Daughter', cursive;
+    font-weight: bold;
+    font-size: 4em;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: hsl(210, 43%, 62%);
+  }
+  
+  .block {
+    background-color: rgb(219, 28, 28);
+    border: 6px solid rgb(226, 12, 191);
+    border-radius: 6px;
+    font-family: 'Architects Daughter', cursive;
+    font-weight: bold;
+    font-size: 20em;
+  }
+  
+  .red {
+    color: rgb(78, 202, 47);
+  }
+  
+  .white {
+    color: white;
+  }
+
+  
