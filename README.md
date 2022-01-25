@@ -10,5 +10,5 @@ Click the button on the board
 
 
 ## Roadmap of Future Improvement
-[] Add a Draw option
-[] Have a winner counter for each round
+[ ] Add a Draw option
+[ ] Have a winner counter for each round
